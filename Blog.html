@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <!-- Adicione links para folhas de estilo (CSS) aqui, se necessário -->
+</head>
+<body>
+
+    <header>
+        <img src="./logo.svg" width="250"> Epicode - Il blog dei developers
+    </header>
+
+    <nav>
+        <!-- Adicione links de navegação aqui, como para as diferentes seções do seu blog -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articoli</a></li>
+            <li><a href="#">Lavora con noi</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Aqui você começaria a adicionar as postagens do blog -->
+        <article>
+            <h2>Come creare un tempate per i post</h2>
+            <p>25/10/2020 | Autor: Mario Rossi</p>
+            <p>La prima cosa da fare è suddividere in blocchi logici la pagina, indenficando le parti comuni da applicare a tutte le pagine</p>
+            <p>Le varie aree saranno quindi suddivise in:
+                <ul>
+                    <li>Contenuti di intestazione del tag < header ></li>
+                    <li>Contenuti centrali variabili del tag < main > (corpo Principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag < footer ></li>
+                </ul>
+            </p>
+            <p>Formatazione del codice
+               <div> Il testo dell'articolo dovrà essere formatto per identificare tutte le parti da selezionare
+               con i CSS. Perciò i passi saranno:</div>
+               <ol>
+                <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                <li>Applicare gli stili CSS</li>
+               </ol>
+            </p>
+            <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+            Diffusione dei CSS
+            <table border="1">
+                <tr>
+                    <th>Anno</th>
+                    <th>% di utilizzo</th>
+                    <th>Supporto browsers</th>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>42%</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                </tr>
+            
+            </table>
+            <p>Un test di validazione potrà essere fatto il tool online <a href="https://epicode.com/it/epiblog/?paged2=2&paged1=1">-LINK ESTERNO-</a>
+                dedicatto allo scopo. Una volta ottimizzatto il tutto, <br> 
+                avremo raggiunto il nostro obiettivo ed essere 
+                stati veri developers come loro:
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/aBSZVeBRvDY" title="Il lavoro PIÙ RICHIESTO del 2023: il Web Developer 🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>
+        </article>
+    </main>
+    <label for="newsletters">Vuoi rimanere aggiornato su altre novità del blog?<br>
+    Iscriviti alla nostra newsletters:</label>
+    <br>
+    <br>
+    
+    <div><label for="name">Inserisci l'email:</label>
+    <input type="text" id="email" size=" 30"placeholder="'Es:beatricemarche@gmail.com...'"><br><br>
+    <textarea name="commento" id="commento" cols="40" rows="5" placeholder="Iscriviti il tuo messagio qui..."></textarea>
+    <br>
+    <button type="submit">Submit Here!</button>
+    </div>
+
+    <p>
+        <b>Articoli Correlati</b> <br>
+        Validare il codice HTML <br>
+        Categoria: develop <br> 
+        Data: 18-9-2020
+    </p>
+    <p>
+        <b>Corregere la sintassi</b>
+    </p>
+
+    <footer>
+        <p>&copy; 2024 Epiblog</p>
+    </footer>
+
+</body>
+</html>
